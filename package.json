@@ -1,0 +1,25 @@
+{
+  "name": "NoteJS",
+  "description": "musical web app",
+  "version": "0.0.1",
+  "author": "Vasil Gochev",
+  "maintainers": [
+    "Vasil Gochev <vasil.gochev@gmail.com>",
+    "Evgeni Kunev <evgeni.kunev@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vassuel/notejs.git"
+  },
+  "main": "",
+  "licenses": [    
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "*"
+  },
+  "engines": ["node >=0.8.7"],
+  "keywords": [
+  ]
+}

@@ -30,3 +30,4 @@ Instrument.prototype.info = function() {
   console.log('patka: ', this.strings);
 }
 
+module.exports = Instrument;

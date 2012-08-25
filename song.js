@@ -17,4 +17,4 @@ Song.prototype.getInfo = function() {
   console.log("-----------------------------------------------");
 }
 
-exports = Song;
+module.exports = Song;

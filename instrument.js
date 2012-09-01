@@ -1,4 +1,5 @@
 'use strict';
+var _ = require('underscore');
 
 function Instrument(data) {
   function next_tone(tone) {
@@ -15,9 +16,7 @@ function Instrument(data) {
     return GAMMA[next_index] + octave;
   }
 
-  this.id       = data.id;
-  this.tuning   = data.tuning;
-  this.frets    = data.frets;
+  _.extend(this, data);
   this.strings  = this.tuning.map(function(base_tone) {
     var result = [base_tone];
     for (var i = 0; i < data.frets; i++) {

@@ -1,11 +1,10 @@
-//var util = require("util");
+'use strict';
+var _ = require('underscore');
 var Track = require('./track');
 
 function Song(data) {
-  this.title  = data.title;
-  this.artist = data.artist;
-	this.album  = data.album;
-  this.tracks = data.tracks.map(function(track) {
+  _.extend(this, data);
+  this.tracks = this.tracks.map(function(track) {
     return new Track(track);
   });
 }

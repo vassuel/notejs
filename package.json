@@ -15,6 +15,7 @@
   "licenses": [    
   ],
   "dependencies": {
+    "underscore": "*"
   },
   "devDependencies": {
     "chai": "*"

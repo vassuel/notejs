@@ -16,25 +16,25 @@ var s = {
           tempo: 120,
           chords: [           
             {
-              options: {
-                rest: false,
-                letring: false
+              is_rest: false,
+              length: {
+                base: 4,
+                dot: false
               },
               notes: [
-                {
-                  string: 6, 
-                  position: 0,
-                  options: {
-                    palm_mute: false
-                  }
+                { // string 6
+                  fret: 6,
+                  palm_mute: false,
+                  let_ring: false
                 },
-                {
-                  string: 6,
-                  position: 1,
-                  options: {
-                    palm_mute: false
-                  }
-                }
+                { // string 5
+                  fret: 6,
+                  palm_mute: false
+                },
+                { // string 4
+                  fret: 9,
+                  let_ring: false
+                },
               ]
             }
           ]
